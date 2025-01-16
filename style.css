@@ -1,7 +1,7 @@
 body {
     padding-left: 10%;
     padding-right: 10%;
-    background-color: #ADD8E6;
+    background-color: #FFB6C1;
 }
 
 h1 {
@@ -35,7 +35,7 @@ img {
 }
 
 #contact {
-    border: 1px solid black;
+    border: 1px solid white;
     padding: 10px;
     font-style: italic;
 }
