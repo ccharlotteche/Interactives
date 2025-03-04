@@ -1,11 +1,11 @@
 /* Base styles */
 body {
-   font-family: Garamond, 'Times New Roman', serif;
+   font-family: Optima, sans-serif;
    line-height: 1.6;
    margin: 0;
    padding: 20px;
    color: #333;
-   background-color: #E5D3C2; /* Light ivory beige cream color */
+   background-color: #e6e3da; /* Light ivory beige cream color */
 }
 
 /* Navigation */
@@ -19,7 +19,7 @@ nav a {
    text-decoration: none;
    margin: 0 10px;
    position: relative;
-   font-family: Garamond, 'Times New Roman', serif;
+   font-family: Optima, 'Times New Roman', sans-serif;
 }
 
 nav a:hover {
@@ -65,14 +65,14 @@ h1 {
    font-size: 3.5rem; /* Larger name */
    margin: 0 0 10px 0;
    color: #333;
-   font-family: Garamond, 'Times New Roman', serif;
+   font-family: Optima, 'Times New Roman', serif;
 }
 
 .subtitle {
    font-size: 1.3rem;
    color: #666;
    margin-bottom: 30px;
-   font-family: Garamond, 'Times New Roman', serif;
+   font-family: Optima, 'Times New Roman', serif;
 }
 
 .bio {
@@ -81,7 +81,7 @@ h1 {
    font-size: 1.1rem;
    color: #444;
    text-align: center;
-   font-family: Garamond, 'Times New Roman', serif;
+   font-family: Optima, 'Times New Roman', serif;
 }
 
 .contact-info {
