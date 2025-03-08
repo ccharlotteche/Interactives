@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SoundCite MP3 Example</title>
+    
+    <!-- SoundCite CSS -->
+    <link href="https://cdn.knightlab.com/libs/soundcite/latest/css/player.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>SoundCite MP3 Example</h1>
+    
+    <p>Kendrick Lamar's Not Like Us
+    <!-- This is the actual audio embed with your mp3 file -->
+    <span class="soundcite" data-url="audio/kdot_not_like_us.mp3" data-start="6000" data-end="15000" data-plays="1">Kendrick Lamar's Not Like Us</span>
+    that plays when clicked.</p>
+    
+    <!-- SoundCite JS - These need to be at the end of the body -->
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"></script>
+</body>
+</html>
