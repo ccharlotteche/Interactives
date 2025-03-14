@@ -7,13 +7,103 @@
     <!-- SoundCite CSS -->
     <link href="https://cdn.knightlab.com/libs/soundcite/latest/css/player.css" rel="stylesheet" type="text/css">
 </head>
+
+
 <body>
-    <h1>SoundCite MP3 Example</h1>
+    <h1>LIKE THAT CLIP</h1>
     
-    <p>Kendrick Lamar's Not Like Us
+    <p>Kendrick Lamar responded by saying,
+
     <!-- This is the actual audio embed with your mp3 file -->
-    <span class="soundcite" data-url="audio/kdot_not_like_us.mp3" data-start="6000" data-end="15000" data-plays="1">Kendrick Lamar's Not Like Us</span>
-    that plays when clicked.</p>
+    <span class="soundcite" data-url="audio/likethat.mp3" data-plays="1">“Motherf–k” the big three, 
+        n—a, it’s just big me” on Future and Metro Boomin’s track “Like That.”
+    
+    <!-- SoundCite JS - These need to be at the end of the body -->
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"></script>
+</body>
+</html>
+
+
+
+<body>
+    <h1>TUPAC CLIP</h1>
+    
+    <p>Shortly after being released from prison Tupac released the explosive diss record “Hit em Up.” 
+        In the song Tupac declared,
+
+    <!-- This is the actual audio embed with your mp3 file -->
+    <span class="soundcite" data-url="audio/fuck_mobb.mp3" data-plays="1">
+        "Fuck Mobb Deep, fuck Biggie Fuck Bad Boy as a staff, record label and as a motherfuckin' 
+        crew And if you want to be down with Bad Bod, then fuck you too.” </span>
+    
+    <!-- SoundCite JS - These need to be at the end of the body -->
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"></script>
+</body>
+</html>
+
+<body>
+    <h1>FAMILY MATTERS 1</h1>
+    
+    <p>The rapper began by addressing Drake’s son: 
+
+
+    <!-- This is the actual audio embed with your mp3 file -->
+    <span class="soundcite" data-url="audio/dear_adonis.mp3" data-plays="1">
+        “Dear Adonis, I'm sorry that that man is your father, let me be honest,”
+</span> and he continued to dedicate each verse to addressing members of Drake's family.
+    
+    <!-- SoundCite JS - These need to be at the end of the body -->
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"></script>
+</body>
+</html>
+
+<body>
+    <h1>FAMILY MATTERS 2</h1>
+    
+    <p>While addressing Drake’s mother Sandra, Lamar made his opinion of the rapper clear, 
+
+
+    <!-- This is the actual audio embed with your mp3 file -->
+    <span class="soundcite" data-url="audio/your_son.mp3" data-plays="1">
+        “Your son's a sick man with sick thoughts, I think niggas like him should die.” </span>
+    
+    <!-- SoundCite JS - These need to be at the end of the body -->
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"></script>
+</body>
+</html>
+
+<body>
+    <h1>NOT LIKE US</h1>
+    
+    <p>On top of a West Coast style beat, Lamar repeatedly accuses Drake of being a pedophile:
+
+
+    <!-- This is the actual audio embed with your mp3 file -->
+    <span class="soundcite" data-url="audio/tryna_strike.mp3" data-plays="1">
+        “Tryna strike a chord and it's probably A minor.” </span>
+    
+    <!-- SoundCite JS - These need to be at the end of the body -->
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
+    <script src="https://cdn.knightlab.com/libs/soundcite/latest/js/soundcite.min.js"></script>
+</body>
+</html>
+
+<body>
+    <h1>EUPHORIA</h1>
+    
+    <p>Just a few days later Kendrick Lamar released “Euphoria.” 
+        The diss criticized Drake for using the N-word, accused the Canadian rapper of using 
+        ghost writers and more. Lamar was not shy about his feelings, rapping tempo
+
+
+    <!-- This is the actual audio embed with your mp3 file -->
+    <span class="soundcite" data-url="audio/euphoria.mp3" data-plays="1">
+        “I hate the way that you walk, the way that you talk, I hate the way that you dress, 
+        I hate the way that you sneak diss, if I catch flight, it's gon' be direct.”</span>
     
     <!-- SoundCite JS - These need to be at the end of the body -->
     <script src="https://connect.soundcloud.com/sdk/sdk-3.3.2.js"></script>
