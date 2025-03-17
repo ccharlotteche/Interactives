@@ -1,3 +1,4 @@
+
 /* Base styles */
 :root {
    --primary-color: #333;
@@ -216,6 +217,35 @@ nav a:hover::after {
 
 .about-section {
    margin-bottom: 30px;
+}
+
+/* Styling for Background section with map */
+.background-with-map {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 30px;
+   align-items: flex-start;
+}
+
+.background-text {
+   flex: 1;
+   min-width: 300px;
+}
+
+.map-container {
+   flex: 1;
+   min-width: 300px;
+   max-width: 450px;
+   border-radius: var(--border-radius);
+   overflow: hidden;
+   box-shadow: var(--box-shadow);
+}
+
+.map-caption {
+   font-size: 0.8rem;
+   color: var(--secondary-color);
+   text-align: center;
+   margin-top: 8px;
 }
 
 .interest-container {
@@ -651,200 +681,4 @@ nav a:hover::after {
    right: 30px;
    display: flex;
    flex-direction: column;
-   gap: 15px;
-   z-index: 100;
-}
-
-.social-icon {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   width: 45px;
-   height: 45px;
-   border-radius: 50%;
-   background-color: var(--card-bg);
-   color: var(--primary-color);
-   box-shadow: var(--box-shadow);
-   transition: transform var(--transition-speed) ease, background-color var(--transition-speed) ease;
-}
-
-.social-icon:hover {
-   transform: translateY(-5px);
-   background-color: var(--primary-color);
-   color: var(--light-text);
-}
-
-/* Accessibility improvements */
-.sr-only {
-   position: absolute;
-   width: 1px;
-   height: 1px;
-   padding: 0;
-   margin: -1px;
-   overflow: hidden;
-   clip: rect(0, 0, 0, 0);
-   white-space: nowrap;
-   border-width: 0;
-}
-
-/* For dark mode styling (optional) */
-@media (prefers-color-scheme: dark) {
-   body {
-       background-color: var(--dark-bg);
-       color: var(--light-text);
-   }
-   
-   h1, h2, h3, h4, h5, h6 {
-       color: var(--light-text);
-   }
-   
-   .project-card, 
-   .contact-info, 
-   .contact-form,
-   .social-icon,
-   .home-social-icon {
-       background-color: var(--dark-card-bg);
-   }
-   
-   .project-info h3 {
-       color: var(--light-text);
-   }
-   
-   .project-info p,
-   .bio p,
-   .about-section p,
-   .skills-list li {
-       color: var(--dark-text);
-   }
-   
-   .tag {
-       background-color: #2a2f3a;
-       color: var(--dark-text);
-   }
-   
-   nav a {
-       color: var(--light-text);
-   }
-   
-   .experience-content h2 {
-       color: var(--light-text);
-   }
-   
-   .timeline::before {
-       background-color: #444;
-   }
-}
-
-/* Responsive adjustments */
-@media (max-width: 992px) {
-   .profile-container h1 {
-       font-size: 3rem;
-   }
-   
-   .projects-grid {
-       grid-template-columns: repeat(2, 1fr);
-   }
-   
-   .page-title {
-       font-size: 3.5rem;
-   }
-   
-   .timeline::before {
-       left: 20px;
-   }
-   
-   .experience-date {
-       flex: 0 0 auto;
-       text-align: left;
-       padding-right: 10px;
-   }
-   
-   .experience-content {
-       padding-left: 30px;
-   }
-}
-
-@media (max-width: 768px) {
-   .profile-container h1 {
-       font-size: 2.5rem;
-   }
-   
-   .projects-grid {
-       grid-template-columns: 1fr;
-   }
-   
-   .page-title {
-       font-size: 3rem;
-   }
-   
-   .profile-container {
-       padding-top: 20px;
-       min-height: auto;
-   }
-   
-   .about-content {
-       flex-direction: column;
-   }
-   
-   .about-image-container {
-       margin: 0 auto;
-   }
-   
-   .contact-container {
-       flex-direction: column;
-   }
-   
-   .header-with-gif {
-       flex-direction: column;
-       align-items: center;
-       text-align: center;
-   }
-   
-   .gif-container {
-       margin-right: 0;
-       margin-bottom: 15px;
-   }
-   
-   .social-icons {
-       bottom: 20px;
-       right: 20px;
-   }
-}
-
-@media (max-width: 480px) {
-   nav {
-       flex-wrap: wrap;
-   }
-   
-   nav a {
-       margin: 5px 10px;
-   }
-   
-   .profile-container h1 {
-       font-size: 2rem;
-   }
-   
-   .subtitle {
-       font-size: 1.1rem;
-   }
-   
-   .page-title {
-       font-size: 2.5rem;
-   }
-   
-   .experience-content::before {
-       left: -4px;
-       width: 10px;
-       height: 10px;
-   }
-   
-   .social-icons {
-       bottom: 10px;
-       right: 10px;
-   }
-   
-   .social-icon {
-       width: 40px;
-       height: 40px;
-   }
-}
+   gap
